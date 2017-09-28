@@ -1,8 +1,20 @@
-jQuery(document).ready(function($){
+var scrollLinks = document.querySelectorAll('.scroll-link');
 
-  //Are we loaded?
-  console.log('New theme loaded!');
+for (var i = 0; i < scrollLinks.length; i++) {
+   scrollLinks[i].addEventListener('click', function(event){
+      event.preventDefault();
+      var scrollId = this.href.split('#')[1];
+      document.getElementById(scrollId).scrollIntoView({
+         behavior: 'smooth'
+      });
+   });
+}
 
-  //Let's do something awesome!
-
-});
+// jQuery(document).ready(function($){
+//
+//   //Are we loaded?
+//   console.log('New theme loaded!');
+//
+//   //Let's do something awesome!
+//
+// });

@@ -1,0 +1,64 @@
+//Header
+.nav-container{
+   // background-color: $green;
+   position: fixed;
+   top: 20px;
+   width: 100%;
+   z-index: 100;
+   .wordmark{
+      float: left;
+      a{
+         font-size: 3rem;
+         font-weight: 400;
+         letter-spacing: 2px;
+      }
+   }
+   a{
+      // color: $white;
+      color: $navy;
+      display: block;
+      font-family: $ubuntu;
+      font-weight: 700;
+      font-size: 1.6rem;
+      margin-bottom: 0;
+      line-height: 60px;
+      height: 60px;
+      padding: 0 20px;
+      transition: all 0.2s ease-in-out;
+      &:hover{
+         background-color: $green-rgba;
+         color: $white;
+         text-decoration: none;
+      }
+   }
+   .main-navigation{
+      float: right;
+      position: relative;
+      background-color: $white;
+      box-shadow: 2px 2px 10px $boxshadow;
+      // background-color: $green-rgba;
+      // border: 2px solid $white-rgba;
+      // padding: 0 20px;
+      ul{
+         margin: 0;
+         list-style: none;
+         li{
+            margin-bottom: 0;
+            list-style: none;
+            display: inline-block;
+         }
+      }
+      // &::after{
+      //    content: '';
+      //    background-color: $green;
+      //    height: 9999px;
+      //    width: 9999px;
+      //    position: absolute;
+      //    z-index: -1;
+      //    bottom: 100%;
+      //    left: -100%;
+      //    transform: rotate(8deg);
+      //    transform-origin: bottom left;
+      // }
+   }
+}

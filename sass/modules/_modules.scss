@@ -1,0 +1,181 @@
+//Hero
+.hero-banner{
+   position: relative;
+   background-color: $green-rgba;
+   text-align: left;
+   padding: 200px 0;
+   height: 100vh;
+   h1{
+      color: $white;
+   }
+}
+
+.bg-image{
+   position: absolute;
+   z-index: -1;
+   top: 0;
+   bottom: 0;
+   left: 0;
+   right: 0;
+   filter: grayscale(1);
+   background-position: center;
+   background-size: cover;
+}
+
+//Panels
+.panel{
+   padding: 50px 0;
+   position: relative;
+   color: $dark-grey;
+   .panel-heading{
+      font-size: 5.4rem;
+      font-weight: 400;
+      border-bottom: 4px dotted;
+      color: $green;
+      margin-bottom: 4rem;
+   }
+   &.green{
+      .inline-heading{
+         display: inline;
+      }
+      background-color: $green;
+      color: $white;
+      .panel-heading{
+         color: $white;
+      }
+      &.gradient{
+         background: $green;
+         background-image: $green-gradient;
+      }
+      &.dark{
+         background-color: $dark-green;
+      }
+   }
+   &.overflow{
+      overflow: hidden;
+   }
+   &#benefits{
+      .panel-heading{
+         border-bottom: 0px;
+         font-size: 3rem;
+      }
+   }
+   &.news-panel{
+      padding-top: 0px;
+      padding-bottom: 0px;
+      .panel-heading{
+         font-size: 5rem;
+         border-bottom: 0px;
+      }
+   }
+}
+
+//Map
+.gmap{
+   height: 85%;
+   width: 40%;
+   background-position: center;
+   background-size: cover;
+   border-radius: 10px 0 0 0;
+   background-image: url(https://maps.googleapis.com/maps/api/staticmap?center=40.653055,+-73.959605&zoom=17&scale=2&size=600x300&maptype=roadmap&key=AIzaSyDF0homieaRhM6dcMJdHAAjSx-ZboErVAo&format=png&visual_refresh=true&markers=size:mid%7Ccolor:0xff0000%7Clabel:%7C40.653055,+-73.959605);
+   position: absolute;
+   bottom: 0;
+   right: 0;
+   // box-shadow: -6px -6px 0px 20px #bbb;
+   box-shadow: 0px 0px 16px $boxshadow;
+}
+
+//Cards
+.benefit-card{
+   // border: 2px solid $green;
+   // background-color: $green-rgba;
+   // color: $green;
+   transition: all 0.2s ease-in-out;
+   border-radius: 10px;
+   padding: 40px;
+   position: relative;
+   p{
+      font-size: 2rem;
+      font-weight: 700;
+   }
+   &::before{
+      content: '*';
+      font-family: serif;
+      font-size: 300px;
+      transition: all 0.2s ease-in-out;
+      position: absolute;
+      top: 0;
+      left: 0;
+      line-height: 250px;
+      z-index: -1;
+      color: #eee;
+   }
+   &:hover{
+      // background-color: $green;
+      &::before{
+         color: $green-rgba;
+      }
+   }
+}
+
+.press-story{
+   display: block;
+   border-bottom: 1px solid;
+   color: $white;
+   padding: 10px 0;
+   .press-thumbnail{
+      height: 200px;
+      border-radius: 10px 0 0 10px;
+      background-position: center;
+      background-size: cover;
+   }
+   .press-text{
+      padding: 10px 20px;
+      transition: opacity 0.2s ease-in-out;
+      max-height: 200px;
+      overflow: hidden;
+      h6{
+         font-size: 2.4rem;
+      }
+   }
+   &:hover{
+      .press-text{
+         opacity: 0.8;
+      }
+   }
+}
+
+.news-container{
+   position: relative;
+   padding: 80px 20px 40px 20px;
+   border-left: 2px dotted;
+   p{
+   }
+   .news-item{
+      position: relative;
+      margin-bottom: 40px;
+      &::before{
+         content: '';
+         display: block;
+         position: absolute;
+         height: 10px;
+         width: 10px;
+         border-radius: 50%;
+         border: 2px solid $green;
+         background-color: $green;
+         top: 14px;
+         margin-top: -5px;
+         left: -28px;
+      }
+   }
+}
+
+.news-feed{
+   position: relative;
+}
+
+svg.timeline{
+   position: absolute;
+   left: 0;
+   height: 2000px;
+}

@@ -21,6 +21,12 @@
 	================================================== -->
 	<link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo( 'stylesheet_url' ); ?>" />
 
+	<!-- Type
+	================================================== -->
+	<link href="https://fonts.googleapis.com/css?family=Arvo:400,400i,700,700i|Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i|Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i|Roboto+Slab:100,300,400,700|Ubuntu:300,300i,400,400i,500,500i,700,700i" rel="stylesheet">
+	<script src="https://use.typekit.net/qrz4kju.js"></script>
+	<script>try{Typekit.load({ async: true });}catch(e){}</script>
+
 	<!-- Favicons
 	================================================== -->
 	<link rel="shortcut icon" href="images/favicon.ico">
@@ -33,16 +39,42 @@
 </head>
 
 <body <?php body_class(); ?>>
- 
-	<header>
-		<div class="container">
 
-			<div class="columns-12">
-				<div class="logo">
-					<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
+	<header>
+		<!-- <div class="container"> -->
+
+			<div class="nav-container">
+				<!-- <div class="logo">
+					<h1 class="site-title"><a href="<//?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><//?php bloginfo( 'name' ); ?></a></h1>
+				</div> -->
+				<div class="container">
+					<div class="row">
+						<div class="columns-12">
+							<!-- <div class="wordmark">
+								<a href="">Caton Flats</a>
+							</div> -->
+							<nav class="main-navigation">
+								<ul>
+									<li>
+										<a class="scroll-link" href="#project">Project</a>
+									</li>
+									<li>
+										<a class="scroll-link" href="#benefits">Benefits</a>
+									</li>
+									<li>
+										<a class="scroll-link" href="#press">Press</a>
+									</li>
+									<li>
+										<a class="scroll-link" href="#news">News</a>
+									</li>
+									<li>
+										<a class="scroll-link" href="#contact">Contact</a>
+									</li>
+								</ul>
+						</div>
+					</div>
 				</div>
-				<nav class="main-navigation">
-					<?php if(has_nav_menu('main_nav')){
+					<!-- <//``?php if(has_nav_menu('main_nav')){
 								$defaults = array(
 									'theme_location'  => 'main_nav',
 									'menu'            => 'main_nav',
@@ -63,9 +95,9 @@
 								); wp_nav_menu( $defaults );
 							}else{
 								echo "<p><em>main_nav</em> doesn't exist! Create it and it'll render here.</p>";
-							} ?>
+							} ?> -->
 				</nav>
 			</div>
 
-		</div>
+		<!-- </div> -->
 	</header>
