@@ -3,10 +3,11 @@
    position: relative;
    background-color: $green-rgba;
    text-align: left;
-   padding: 200px 0;
+   padding: 40vh 0 0 0;
    height: 100vh;
    h1{
       color: $white;
+      padding: 0 10%;
    }
 }
 
@@ -149,7 +150,12 @@
    position: relative;
    padding: 80px 20px 40px 20px;
    border-left: 2px dotted;
-   p{
+   .news-date{
+      font-weight: 700;
+      font-family: $ubuntu;
+      color: $grey;
+      margin-bottom: 0px;
+      font-size: 3rem;
    }
    .news-item{
       position: relative;
@@ -163,7 +169,7 @@
          border-radius: 50%;
          border: 2px solid $green;
          background-color: $green;
-         top: 14px;
+         top: 20px;
          margin-top: -5px;
          left: -28px;
       }

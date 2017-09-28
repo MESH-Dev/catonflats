@@ -625,7 +625,7 @@ footer .button {
 }
 /* line 32, sass/modules/_buttons.scss */
 footer .button:hover {
-  background-color: #00AD8C;
+  background-color: rgba(0, 173, 140, 0.5);
   color: #FFFFFF;
 }
 
@@ -894,20 +894,25 @@ footer .centered-section {
 }
 /* line 8, sass/modules/_footer.scss */
 footer p, footer h6 {
-  margin-bottom: 0px;
+  margin-bottom: 10px;
 }
 /* line 11, sass/modules/_footer.scss */
 footer h6 {
   font-size: 2.4rem;
   color: #ddd;
+  border-bottom: 2px dotted;
 }
-/* line 15, sass/modules/_footer.scss */
+/* line 16, sass/modules/_footer.scss */
 footer a {
   color: #ddd;
 }
-/* line 17, sass/modules/_footer.scss */
+/* line 18, sass/modules/_footer.scss */
 footer a:hover {
   text-decoration: none;
+}
+/* line 21, sass/modules/_footer.scss */
+footer a.email {
+  border-bottom: 1px solid;
 }
 
 /* line 2, sass/modules/_modules.scss */
@@ -915,15 +920,16 @@ footer a:hover {
   position: relative;
   background-color: rgba(0, 173, 140, 0.5);
   text-align: left;
-  padding: 200px 0;
+  padding: 40vh 0 0 0;
   height: 100vh;
 }
 /* line 8, sass/modules/_modules.scss */
 .hero-banner h1 {
   color: #FFFFFF;
+  padding: 0 10%;
 }
 
-/* line 13, sass/modules/_modules.scss */
+/* line 14, sass/modules/_modules.scss */
 .bg-image {
   position: absolute;
   z-index: -1;
@@ -936,13 +942,13 @@ footer a:hover {
   background-size: cover;
 }
 
-/* line 26, sass/modules/_modules.scss */
+/* line 27, sass/modules/_modules.scss */
 .panel {
   padding: 50px 0;
   position: relative;
   color: #404040;
 }
-/* line 30, sass/modules/_modules.scss */
+/* line 31, sass/modules/_modules.scss */
 .panel .panel-heading {
   font-size: 5.4rem;
   font-weight: 400;
@@ -950,49 +956,49 @@ footer a:hover {
   color: #00AD8C;
   margin-bottom: 4rem;
 }
-/* line 37, sass/modules/_modules.scss */
+/* line 38, sass/modules/_modules.scss */
 .panel.green {
   background-color: #00AD8C;
   color: #FFFFFF;
 }
-/* line 38, sass/modules/_modules.scss */
+/* line 39, sass/modules/_modules.scss */
 .panel.green .inline-heading {
   display: inline;
 }
-/* line 43, sass/modules/_modules.scss */
+/* line 44, sass/modules/_modules.scss */
 .panel.green .panel-heading {
   color: #FFFFFF;
 }
-/* line 46, sass/modules/_modules.scss */
+/* line 47, sass/modules/_modules.scss */
 .panel.green.gradient {
   background: #00AD8C;
   background-image: linear-gradient(142deg, #00856B 0%, #00AD8C 55%, #00EABC 100%);
 }
-/* line 50, sass/modules/_modules.scss */
+/* line 51, sass/modules/_modules.scss */
 .panel.green.dark {
   background-color: #00856B;
 }
-/* line 54, sass/modules/_modules.scss */
+/* line 55, sass/modules/_modules.scss */
 .panel.overflow {
   overflow: hidden;
 }
-/* line 58, sass/modules/_modules.scss */
+/* line 59, sass/modules/_modules.scss */
 .panel#benefits .panel-heading {
   border-bottom: 0px;
   font-size: 3rem;
 }
-/* line 63, sass/modules/_modules.scss */
+/* line 64, sass/modules/_modules.scss */
 .panel.news-panel {
   padding-top: 0px;
   padding-bottom: 0px;
 }
-/* line 66, sass/modules/_modules.scss */
+/* line 67, sass/modules/_modules.scss */
 .panel.news-panel .panel-heading {
   font-size: 5rem;
   border-bottom: 0px;
 }
 
-/* line 74, sass/modules/_modules.scss */
+/* line 75, sass/modules/_modules.scss */
 .gmap {
   height: 85%;
   width: 40%;
@@ -1006,19 +1012,19 @@ footer a:hover {
   box-shadow: 0px 0px 16px #555;
 }
 
-/* line 89, sass/modules/_modules.scss */
+/* line 90, sass/modules/_modules.scss */
 .benefit-card {
   transition: all 0.2s ease-in-out;
   border-radius: 10px;
   padding: 40px;
   position: relative;
 }
-/* line 97, sass/modules/_modules.scss */
+/* line 98, sass/modules/_modules.scss */
 .benefit-card p {
   font-size: 2rem;
   font-weight: 700;
 }
-/* line 101, sass/modules/_modules.scss */
+/* line 102, sass/modules/_modules.scss */
 .benefit-card::before {
   content: '*';
   font-family: serif;
@@ -1031,53 +1037,61 @@ footer a:hover {
   z-index: -1;
   color: #eee;
 }
-/* line 115, sass/modules/_modules.scss */
+/* line 116, sass/modules/_modules.scss */
 .benefit-card:hover::before {
   color: rgba(0, 173, 140, 0.5);
 }
 
-/* line 121, sass/modules/_modules.scss */
+/* line 122, sass/modules/_modules.scss */
 .press-story {
   display: block;
   border-bottom: 1px solid;
   color: #FFFFFF;
   padding: 10px 0;
 }
-/* line 126, sass/modules/_modules.scss */
+/* line 127, sass/modules/_modules.scss */
 .press-story .press-thumbnail {
   height: 200px;
   border-radius: 10px 0 0 10px;
   background-position: center;
   background-size: cover;
 }
-/* line 132, sass/modules/_modules.scss */
+/* line 133, sass/modules/_modules.scss */
 .press-story .press-text {
   padding: 10px 20px;
   transition: opacity 0.2s ease-in-out;
   max-height: 200px;
   overflow: hidden;
 }
-/* line 137, sass/modules/_modules.scss */
+/* line 138, sass/modules/_modules.scss */
 .press-story .press-text h6 {
   font-size: 2.4rem;
 }
-/* line 142, sass/modules/_modules.scss */
+/* line 143, sass/modules/_modules.scss */
 .press-story:hover .press-text {
   opacity: 0.8;
 }
 
-/* line 148, sass/modules/_modules.scss */
+/* line 149, sass/modules/_modules.scss */
 .news-container {
   position: relative;
   padding: 80px 20px 40px 20px;
   border-left: 2px dotted;
 }
-/* line 154, sass/modules/_modules.scss */
+/* line 153, sass/modules/_modules.scss */
+.news-container .news-date {
+  font-weight: 700;
+  font-family: "Ubuntu", sans-serif;
+  color: #aaa;
+  margin-bottom: 0px;
+  font-size: 3rem;
+}
+/* line 160, sass/modules/_modules.scss */
 .news-container .news-item {
   position: relative;
   margin-bottom: 40px;
 }
-/* line 157, sass/modules/_modules.scss */
+/* line 163, sass/modules/_modules.scss */
 .news-container .news-item::before {
   content: '';
   display: block;
@@ -1087,17 +1101,17 @@ footer a:hover {
   border-radius: 50%;
   border: 2px solid #00AD8C;
   background-color: #00AD8C;
-  top: 14px;
+  top: 20px;
   margin-top: -5px;
   left: -28px;
 }
 
-/* line 173, sass/modules/_modules.scss */
+/* line 179, sass/modules/_modules.scss */
 .news-feed {
   position: relative;
 }
 
-/* line 177, sass/modules/_modules.scss */
+/* line 183, sass/modules/_modules.scss */
 svg.timeline {
   position: absolute;
   left: 0;

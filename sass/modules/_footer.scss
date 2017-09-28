@@ -6,16 +6,20 @@ footer{
       text-align: center;
    }
    p,h6{
-      margin-bottom: 0px;
+      margin-bottom: 10px;
    }
    h6{
       font-size: 2.4rem;
       color: #ddd;
+      border-bottom: 2px dotted;
    }
    a{
       color: #ddd;
       &:hover{
          text-decoration: none;
+      }
+      &.email{
+         border-bottom: 1px solid;
       }
    }
 }
