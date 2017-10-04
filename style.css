@@ -901,7 +901,7 @@ footer p, footer h6 {
 footer h6 {
   font-size: 2.4rem;
   color: #ddd;
-  border-bottom: 2px dotted;
+  border-bottom: 1px solid;
 }
 /* line 17, sass/modules/_footer.scss */
 footer a {
@@ -940,92 +940,96 @@ footer a.email {
   bottom: 0;
   left: 0;
   right: 0;
+  -webkit-filter: grayscale(1);
   filter: grayscale(1);
   background-position: center;
   background-size: cover;
 }
 
-/* line 29, sass/modules/_modules.scss */
+/* line 30, sass/modules/_modules.scss */
 .panel {
   padding: 50px 0;
   position: relative;
   color: #404040;
 }
-/* line 33, sass/modules/_modules.scss */
+/* line 34, sass/modules/_modules.scss */
 .panel .panel-heading {
   font-size: 5.4rem;
   font-weight: 400;
-  border-bottom: 4px dotted;
+  border-bottom: 1px solid;
   color: #00AD8C;
   margin-bottom: 4rem;
 }
 /* line 40, sass/modules/_modules.scss */
+.panel .panel-heading h1, .panel .panel-heading h2, .panel .panel-heading h3 {
+  font-size: 5.4rem;
+  font-weight: 400;
+}
+/* line 45, sass/modules/_modules.scss */
 .panel.green {
   background-color: #00AD8C;
   color: #FFFFFF;
 }
-/* line 41, sass/modules/_modules.scss */
+/* line 46, sass/modules/_modules.scss */
 .panel.green .inline-heading {
   display: inline;
 }
-/* line 46, sass/modules/_modules.scss */
+/* line 51, sass/modules/_modules.scss */
 .panel.green .panel-heading {
   color: #FFFFFF;
 }
-/* line 49, sass/modules/_modules.scss */
+/* line 54, sass/modules/_modules.scss */
 .panel.green.gradient {
   background: #00AD8C;
   background-image: linear-gradient(142deg, #00856B 0%, #00AD8C 55%, #00EABC 100%);
 }
-/* line 53, sass/modules/_modules.scss */
+/* line 58, sass/modules/_modules.scss */
 .panel.green.dark {
   background-color: #00856B;
 }
-/* line 57, sass/modules/_modules.scss */
+/* line 62, sass/modules/_modules.scss */
 .panel.overflow {
   overflow: hidden;
 }
-/* line 61, sass/modules/_modules.scss */
+/* line 66, sass/modules/_modules.scss */
 .panel#benefits .panel-heading {
   border-bottom: 0px;
 }
-/* line 65, sass/modules/_modules.scss */
+/* line 70, sass/modules/_modules.scss */
 .panel.news-panel {
   padding-top: 0px;
   padding-bottom: 0px;
 }
-/* line 68, sass/modules/_modules.scss */
+/* line 73, sass/modules/_modules.scss */
 .panel.news-panel .panel-heading {
   border-bottom: 0px;
 }
 
-/* line 76, sass/modules/_modules.scss */
+/* line 81, sass/modules/_modules.scss */
 .gmap {
-  height: 85%;
+  height: 100%;
   width: 40%;
   background-position: center;
   background-size: cover;
-  border-radius: 10px 0 0 0;
   background-image: url(https://maps.googleapis.com/maps/api/staticmap?center=40.653055,+-73.959605&zoom=17&scale=2&size=600x300&maptype=roadmap&key=AIzaSyDF0homieaRhM6dcMJdHAAjSx-ZboErVAo&format=png&visual_refresh=true&markers=size:mid%7Ccolor:0xff0000%7Clabel:%7C40.653055,+-73.959605);
   position: absolute;
   bottom: 0;
   right: 0;
-  box-shadow: 0px 0px 16px #555;
 }
 
-/* line 91, sass/modules/_modules.scss */
+/* line 96, sass/modules/_modules.scss */
 .benefit-card {
   transition: all 0.2s ease-in-out;
   border-radius: 10px;
   padding: 40px;
   position: relative;
 }
-/* line 99, sass/modules/_modules.scss */
+/* line 104, sass/modules/_modules.scss */
 .benefit-card p {
   font-size: 2rem;
   font-weight: 700;
 }
-/* line 103, sass/modules/_modules.scss */
+/* line 108, sass/modules/_modules.scss */
 .benefit-card::before {
   content: '*';
   font-family: serif;
@@ -1038,48 +1042,65 @@ footer a.email {
   z-index: -1;
   color: #eee;
 }
-/* line 117, sass/modules/_modules.scss */
+/* line 122, sass/modules/_modules.scss */
 .benefit-card:hover::before {
   color: rgba(0, 173, 140, 0.5);
 }
 
-/* line 123, sass/modules/_modules.scss */
+/* line 128, sass/modules/_modules.scss */
 .press-story {
   display: block;
-  border-bottom: 1px solid;
+  border: 1px solid;
   color: #FFFFFF;
-  padding: 10px 0;
+  padding: 0;
 }
-/* line 128, sass/modules/_modules.scss */
+/* line 133, sass/modules/_modules.scss */
 .press-story .press-thumbnail {
-  height: 200px;
-  border-radius: 10px 0 0 10px;
+  height: 140px;
   background-position: center;
   background-size: cover;
 }
-/* line 134, sass/modules/_modules.scss */
+/* line 139, sass/modules/_modules.scss */
 .press-story .press-text {
-  padding: 10px 20px;
   transition: opacity 0.2s ease-in-out;
-  max-height: 200px;
   overflow: hidden;
 }
-/* line 139, sass/modules/_modules.scss */
+/* line 144, sass/modules/_modules.scss */
 .press-story .press-text h6 {
+  font-weight: 400;
   font-size: 2.4rem;
 }
-/* line 144, sass/modules/_modules.scss */
+/* line 148, sass/modules/_modules.scss */
+.press-story .press-text p {
+  font-size: 1.4rem;
+}
+/* line 152, sass/modules/_modules.scss */
+.press-story .press-title, .press-story .press-desc {
+  padding: 10px;
+  margin-bottom: 0;
+}
+/* line 156, sass/modules/_modules.scss */
+.press-story .press-date {
+  border-top: 1px solid;
+  margin-bottom: 0px;
+  padding: 10px;
+}
+/* line 161, sass/modules/_modules.scss */
+.press-story:hover {
+  text-decoration: none;
+}
+/* line 163, sass/modules/_modules.scss */
 .press-story:hover .press-text {
   opacity: 0.8;
 }
 
-/* line 150, sass/modules/_modules.scss */
+/* line 169, sass/modules/_modules.scss */
 .news-container {
   position: relative;
   padding: 80px 20px 40px 20px;
-  border-left: 2px dotted;
+  border-left: 2px solid #aaa;
 }
-/* line 154, sass/modules/_modules.scss */
+/* line 173, sass/modules/_modules.scss */
 .news-container .news-date {
   font-weight: 700;
   font-family: "brandon-grotesque", sans-serif;
@@ -1087,12 +1108,12 @@ footer a.email {
   margin-bottom: 0px;
   font-size: 3rem;
 }
-/* line 161, sass/modules/_modules.scss */
+/* line 180, sass/modules/_modules.scss */
 .news-container .news-item {
   position: relative;
   margin-bottom: 40px;
 }
-/* line 164, sass/modules/_modules.scss */
+/* line 183, sass/modules/_modules.scss */
 .news-container .news-item::before {
   content: '';
   display: block;
@@ -1107,12 +1128,12 @@ footer a.email {
   left: -28px;
 }
 
-/* line 180, sass/modules/_modules.scss */
+/* line 199, sass/modules/_modules.scss */
 .news-feed {
   position: relative;
 }
 
-/* line 184, sass/modules/_modules.scss */
+/* line 203, sass/modules/_modules.scss */
 svg.timeline {
   position: absolute;
   left: 0;

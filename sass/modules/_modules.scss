@@ -20,6 +20,7 @@
    bottom: 0;
    left: 0;
    right: 0;
+   -webkit-filter: grayscale(1);
    filter: grayscale(1);
    background-position: center;
    background-size: cover;
@@ -33,9 +34,13 @@
    .panel-heading{
       font-size: 5.4rem;
       font-weight: 400;
-      border-bottom: 4px dotted;
+      border-bottom: 1px solid;
       color: $green;
       margin-bottom: 4rem;
+      h1,h2,h3{
+         font-size: 5.4rem;
+         font-weight: 400;
+      }
    }
    &.green{
       .inline-heading{
@@ -74,17 +79,17 @@
 
 //Map
 .gmap{
-   height: 85%;
+   height: 100%;
    width: 40%;
    background-position: center;
    background-size: cover;
-   border-radius: 10px 0 0 0;
+   // border-radius: 10px 0 0 0;
    background-image: url(https://maps.googleapis.com/maps/api/staticmap?center=40.653055,+-73.959605&zoom=17&scale=2&size=600x300&maptype=roadmap&key=AIzaSyDF0homieaRhM6dcMJdHAAjSx-ZboErVAo&format=png&visual_refresh=true&markers=size:mid%7Ccolor:0xff0000%7Clabel:%7C40.653055,+-73.959605);
    position: absolute;
    bottom: 0;
    right: 0;
    // box-shadow: -6px -6px 0px 20px #bbb;
-   box-shadow: 0px 0px 16px $boxshadow;
+   // box-shadow: 0px 0px 16px $boxshadow;
 }
 
 //Cards
@@ -122,25 +127,39 @@
 
 .press-story{
    display: block;
-   border-bottom: 1px solid;
+   border: 1px solid;
    color: $white;
-   padding: 10px 0;
+   padding: 0;
    .press-thumbnail{
-      height: 200px;
-      border-radius: 10px 0 0 10px;
+      height: 140px;
+      // border-radius: 10px 0 0 10px;
       background-position: center;
       background-size: cover;
    }
    .press-text{
-      padding: 10px 20px;
+      // padding: 10px;
       transition: opacity 0.2s ease-in-out;
-      max-height: 200px;
+      // max-height: 200px;
       overflow: hidden;
       h6{
+         font-weight: 400;
          font-size: 2.4rem;
       }
+      p{
+         font-size: 1.4rem;
+      }
+   }
+   .press-title, .press-desc{
+      padding: 10px;
+      margin-bottom: 0;
+   }
+   .press-date{
+      border-top: 1px solid;
+      margin-bottom: 0px;
+      padding: 10px;
    }
    &:hover{
+      text-decoration: none;
       .press-text{
          opacity: 0.8;
       }
@@ -150,7 +169,7 @@
 .news-container{
    position: relative;
    padding: 80px 20px 40px 20px;
-   border-left: 2px dotted;
+   border-left: 2px solid $grey;
    .news-date{
       font-weight: 700;
       font-family: $brandon;

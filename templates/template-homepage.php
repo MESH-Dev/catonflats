@@ -15,9 +15,13 @@
    <div class="bg-image" style="background-image:url('wp-content/themes/catonflats/img/c02.jpg')"></div>
 </div>
 <div id="project" class="panel green gradient overflow">
+   <div class="panel-heading">
+      <div class="container">
+         <h2>Project Overview</h2>
+      </div>
+   </div>
    <div class="container">
       <div class="row">
-         <h2 class="panel-heading">Project Overview</h2>
          <div class="columns-6">
             <p>Caton Flats is a proposed mixed-use development located at the corner of Flatbush and Caton Avenues in the Flatbush neighborhood of Brooklyn.<br>The proposed development will contain affordable rental apartments, a new home for the Flatbush Caton Market, incubator space for local entrepreneurs and businesses, a new headquarters for the Caribbean American Chamber of Commerce and Industry, parking, and ground floor retail.</p>
          </div>
@@ -29,8 +33,12 @@
    </div>
 </div>
 <div id="benefits" class="panel">
+   <div class="panel-heading">
+      <div class="container">
+         <h2>Community Benefits</h2>
+      </div>
+   </div>
    <div class="container">
-      <h2 class="panel-heading">Community Benefits</h2>
       <div class="row grid-row">
          <div class="columns-4 benefit-card">
             <p>100% affordable development providing more than 250 quality rental apartments</p>
@@ -53,42 +61,52 @@
    </div>
 </div>
 <div id="press" class="panel green">
+   <div class="panel-heading">
+      <div class="container">
+         <h2>Press</h2>
+      </div>
+   </div>
    <div class="container">
       <div class="row">
-         <h2 class="panel-heading">Press</h2>
-         <a href="" class="columns-12 press-story">
-            <div class="row">
-               <div class="columns-3 press-thumbnail" style="background-image:url('http://localhost:8888/catonflats/wp-content/themes/catonflats/img/carib30n-8-web.jpg')">
+         <div class="columns-6">
+            <a href="" class="press-story">
+               <div class="row">
+                  <div class="press-thumbnail" style="background-image:url('http://localhost:8888/catonflats/wp-content/themes/catonflats/img/carib30n-8-web.jpg')">
+                  </div>
+                  <div class="press-text">
+                     <h6 class="press-title">Fusce dapibus, tellus ac cursus commodo, tortor mauris.</h6>
+                     <p class="press-desc">Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+                     <p class="press-date">10.08.17</p>
+                  </div>
                </div>
-               <div class="columns-9 press-text">
-                  <h6 class="press-title">Fusce dapibus, tellus ac cursus commodo, tortor mauris.</h6>
-                  <p class="press-desc">Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-                  <p class="press-date">10.08.17</p>
+            </a>
+         </div>
+         <div class="columns-3">
+            <a href="" class="press-story">
+               <div class="row">
+                  <div class="press-thumbnail" style="background-image:url('http://localhost:8888/catonflats/wp-content/themes/catonflats/img/carib30n-8-web.jpg')">
+                  </div>
+                  <div class="press-text">
+                     <h6 class="press-title">Fusce dapibus, tellus ac cursus commodo, tortor mauris.</h6>
+                     <p class="press-desc">Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+                     <p class="press-date">10.08.17</p>
+                  </div>
                </div>
-            </div>
-         </a>
-         <a href="" class="columns-12 press-story">
-            <div class="row">
-               <div class="columns-3 press-thumbnail" style="background-image:url('http://localhost:8888/catonflats/wp-content/themes/catonflats/img/carib30n-8-web.jpg')">
+            </a>
+         </div>
+         <div class="columns-3">
+            <a href="" class="press-story">
+               <div class="row">
+                  <div class="press-thumbnail" style="background-image:url('http://localhost:8888/catonflats/wp-content/themes/catonflats/img/carib30n-8-web.jpg')">
+                  </div>
+                  <div class="press-text">
+                     <h6 class="press-title">Fusce dapibus, tellus ac cursus commodo, tortor mauris.</h6>
+                     <p class="press-desc">Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Fusce dapibus, tellus ac cursus commodo, tortor</p>
+                     <p class="press-date">10.08.17</p>
+                  </div>
                </div>
-               <div class="columns-9 press-text">
-                  <h6 class="press-title">Fusce dapibus, tellus ac cursus commodo, tortor mauris.</h6>
-                  <p class="press-desc">Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-                  <p class="press-date">10.08.17</p>
-               </div>
-            </div>
-         </a>
-         <a href="" class="columns-12 press-story">
-            <div class="row">
-               <div class="columns-3 press-thumbnail" style="background-image:url('http://localhost:8888/catonflats/wp-content/themes/catonflats/img/carib30n-8-web.jpg')">
-               </div>
-               <div class="columns-9 press-text">
-                  <h6 class="press-title">Fusce dapibus, tellus ac cursus commodo, tortor mauris.</h6>
-                  <p class="press-desc">Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-                  <p class="press-date">10.08.17</p>
-               </div>
-            </div>
-         </a>
+            </a>
+         </div>
       </div>
    </div>
 </div>
