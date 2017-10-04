@@ -6,8 +6,10 @@
    padding: 40vh 0 0 0;
    height: 100vh;
    h1{
+      font-size: 8.4rem;
       color: $white;
       padding: 0 10%;
+      max-width: 800px;
    }
 }
 
@@ -58,14 +60,13 @@
    &#benefits{
       .panel-heading{
          border-bottom: 0px;
-         font-size: 3rem;
       }
    }
    &.news-panel{
       padding-top: 0px;
       padding-bottom: 0px;
       .panel-heading{
-         font-size: 5rem;
+         // font-size: 5rem;
          border-bottom: 0px;
       }
    }
@@ -152,7 +153,7 @@
    border-left: 2px dotted;
    .news-date{
       font-weight: 700;
-      font-family: $ubuntu;
+      font-family: $brandon;
       color: $grey;
       margin-bottom: 0px;
       font-size: 3rem;
