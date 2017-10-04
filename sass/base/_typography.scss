@@ -16,12 +16,12 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 300;
 }
 
-h1 { font-size: 5.4rem; line-height: 1.2; font-family: $ubuntu; font-weight: 700;}
-h2 { font-size: 3.6rem; line-height: 1.2; font-family: $ubuntu; font-weight: 700;}
-h3 { font-size: 3.0rem; line-height: 1.2; font-family: $ubuntu; font-weight: 700;}
-h4 { font-size: 2.4rem; line-height: 1.2; font-family: $ubuntu;}
-h5 { font-size: 1.8rem; line-height: 1.2; font-family: $arvo;}
-h6 { font-size: 1.5rem; line-height: 1.2; font-family: $arvo; font-weight: 700;}
+h1 { font-size: 5.4rem; line-height: 1.2; font-family: $brandon; font-weight: 700;}
+h2 { font-size: 3.6rem; line-height: 1.2; font-family: $brandon; font-weight: 700;}
+h3 { font-size: 3.0rem; line-height: 1.2; font-family: $brandon; font-weight: 700;}
+h4 { font-size: 2.4rem; line-height: 1.2; font-family: $brandon;}
+h5 { font-size: 1.8rem; line-height: 1.2; font-family: $montserrat;}
+h6 { font-size: 1.5rem; line-height: 1.2; font-family: $montserrat; font-weight: 700;}
 
 
 @media($bp-smaller-than-tablet) {
@@ -39,5 +39,5 @@ p {
   // line-height: normal;;
   margin-top: 0;
   margin-bottom: 1.8rem;
-  font-family: $arvo;
+  font-family: $montserrat;
 }

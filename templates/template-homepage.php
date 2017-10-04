@@ -7,7 +7,7 @@
    <div class="container">
       <div class="row">
          <div class="columns-12">
-            <h1>Caton<br>Flats<br>Development</h1>
+            <h1>Caton Flats Development</h1>
          </div>
       </div>
    </div>
