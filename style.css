@@ -1057,50 +1057,51 @@ footer a.email {
 /* line 133, sass/modules/_modules.scss */
 .press-story .press-thumbnail {
   height: 140px;
+  margin: 10px;
   background-position: center;
   background-size: cover;
 }
-/* line 139, sass/modules/_modules.scss */
+/* line 140, sass/modules/_modules.scss */
 .press-story .press-text {
   transition: opacity 0.2s ease-in-out;
   overflow: hidden;
 }
-/* line 144, sass/modules/_modules.scss */
+/* line 145, sass/modules/_modules.scss */
 .press-story .press-text h6 {
   font-weight: 400;
   font-size: 2.4rem;
 }
-/* line 148, sass/modules/_modules.scss */
+/* line 149, sass/modules/_modules.scss */
 .press-story .press-text p {
   font-size: 1.4rem;
 }
-/* line 152, sass/modules/_modules.scss */
+/* line 153, sass/modules/_modules.scss */
 .press-story .press-title, .press-story .press-desc {
   padding: 10px;
   margin-bottom: 0;
 }
-/* line 156, sass/modules/_modules.scss */
+/* line 157, sass/modules/_modules.scss */
 .press-story .press-date {
   border-top: 1px solid;
   margin-bottom: 0px;
   padding: 10px;
 }
-/* line 161, sass/modules/_modules.scss */
+/* line 162, sass/modules/_modules.scss */
 .press-story:hover {
   text-decoration: none;
 }
-/* line 163, sass/modules/_modules.scss */
+/* line 164, sass/modules/_modules.scss */
 .press-story:hover .press-text {
   opacity: 0.8;
 }
 
-/* line 169, sass/modules/_modules.scss */
+/* line 170, sass/modules/_modules.scss */
 .news-container {
   position: relative;
   padding: 80px 20px 40px 20px;
   border-left: 2px solid #aaa;
 }
-/* line 173, sass/modules/_modules.scss */
+/* line 174, sass/modules/_modules.scss */
 .news-container .news-date {
   font-weight: 700;
   font-family: "brandon-grotesque", sans-serif;
@@ -1108,12 +1109,12 @@ footer a.email {
   margin-bottom: 0px;
   font-size: 3rem;
 }
-/* line 180, sass/modules/_modules.scss */
+/* line 181, sass/modules/_modules.scss */
 .news-container .news-item {
   position: relative;
   margin-bottom: 40px;
 }
-/* line 183, sass/modules/_modules.scss */
+/* line 184, sass/modules/_modules.scss */
 .news-container .news-item::before {
   content: '';
   display: block;
@@ -1128,12 +1129,12 @@ footer a.email {
   left: -28px;
 }
 
-/* line 199, sass/modules/_modules.scss */
+/* line 200, sass/modules/_modules.scss */
 .news-feed {
   position: relative;
 }
 
-/* line 203, sass/modules/_modules.scss */
+/* line 204, sass/modules/_modules.scss */
 svg.timeline {
   position: absolute;
   left: 0;
