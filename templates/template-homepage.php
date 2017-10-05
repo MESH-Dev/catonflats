@@ -7,7 +7,10 @@
    <div class="container">
       <div class="row">
          <div class="columns-12">
-            <h1>Caton Flats Development</h1>
+            <div class="welcome-heading">
+               <h1>Caton Flats Development</h1>
+               <a class="welcome button scroll-link" href="#project">About Us</a>
+            </div>
          </div>
       </div>
    </div>

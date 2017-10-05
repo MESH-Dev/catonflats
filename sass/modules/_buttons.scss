@@ -3,14 +3,14 @@
 
 .button,
 button {
-   font-family: $montserrat;
+   font-family: $brandon;
   display: inline-block;
   height: 44px;
   padding: 0 30px;
   //color: $secondary-color;
   text-align: center;
   // font-size: 11px;
-  font-weight: 600;
+  font-weight: 400;
   line-height: 44px;
   // text-transform: uppercase;
   text-decoration: none;
@@ -20,7 +20,7 @@ button {
   //border: 1px solid $border-color;
   cursor: pointer;
   box-sizing: border-box;
-  font-size: 1.6rem;
+  font-size: 1.8rem;
 }
 
 footer{

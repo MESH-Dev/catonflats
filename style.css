@@ -602,18 +602,18 @@ p {
 /* line 4, sass/modules/_buttons.scss */
 .button,
 button {
-  font-family: "Montserrat", sans-serif;
+  font-family: "brandon-grotesque", sans-serif;
   display: inline-block;
   height: 44px;
   padding: 0 30px;
   text-align: center;
-  font-weight: 600;
+  font-weight: 400;
   line-height: 44px;
   text-decoration: none;
   white-space: nowrap;
   cursor: pointer;
   box-sizing: border-box;
-  font-size: 1.6rem;
+  font-size: 1.8rem;
 }
 
 /* line 27, sass/modules/_buttons.scss */
@@ -848,9 +848,9 @@ td:last-child {
 .nav-container a {
   color: #551A8B;
   display: block;
-  font-family: "Montserrat", sans-serif;
-  font-weight: 700;
-  font-size: 1.6rem;
+  font-family: "brandon-grotesque", sans-serif;
+  font-weight: 400;
+  font-size: 1.8rem;
   margin-bottom: 0;
   line-height: 60px;
   height: 60px;
@@ -925,14 +925,42 @@ footer a.email {
   height: 100vh;
 }
 /* line 8, sass/modules/_modules.scss */
-.hero-banner h1 {
+.hero-banner .welcome-heading {
+  position: relative;
+  display: inline-block;
+  border: 1px solid #FFFFFF;
+}
+/* line 12, sass/modules/_modules.scss */
+.hero-banner .welcome-heading h1 {
   font-size: 8.4rem;
   color: #FFFFFF;
-  padding: 0 10%;
-  max-width: 800px;
+  padding: 10px 10%;
+  max-width: 700px;
+  position: relative;
+  font-weight: 400;
+  line-height: 1;
+  margin: 0;
+}
+/* line 22, sass/modules/_modules.scss */
+.hero-banner .welcome-heading .button {
+  color: #fff;
+  font-size: 2.4rem;
+  border: 1px solid;
+  height: 44px;
+  line-height: 44px;
+  position: absolute;
+  left: 100%;
+  top: 100%;
+  transition: all 0.2s ease-in-out;
+}
+/* line 32, sass/modules/_modules.scss */
+.hero-banner .welcome-heading .button:hover {
+  text-decoration: none;
+  background-color: #00AD8C;
+  color: #FFFFFF;
 }
 
-/* line 16, sass/modules/_modules.scss */
+/* line 41, sass/modules/_modules.scss */
 .bg-image {
   position: absolute;
   z-index: -1;
@@ -946,13 +974,13 @@ footer a.email {
   background-size: cover;
 }
 
-/* line 30, sass/modules/_modules.scss */
+/* line 55, sass/modules/_modules.scss */
 .panel {
   padding: 50px 0;
   position: relative;
   color: #404040;
 }
-/* line 34, sass/modules/_modules.scss */
+/* line 59, sass/modules/_modules.scss */
 .panel .panel-heading {
   font-size: 5.4rem;
   font-weight: 400;
@@ -960,52 +988,52 @@ footer a.email {
   color: #00AD8C;
   margin-bottom: 4rem;
 }
-/* line 40, sass/modules/_modules.scss */
+/* line 65, sass/modules/_modules.scss */
 .panel .panel-heading h1, .panel .panel-heading h2, .panel .panel-heading h3 {
   font-size: 5.4rem;
   font-weight: 400;
 }
-/* line 45, sass/modules/_modules.scss */
+/* line 70, sass/modules/_modules.scss */
 .panel.green {
   background-color: #00AD8C;
   color: #FFFFFF;
 }
-/* line 46, sass/modules/_modules.scss */
+/* line 71, sass/modules/_modules.scss */
 .panel.green .inline-heading {
   display: inline;
 }
-/* line 51, sass/modules/_modules.scss */
+/* line 76, sass/modules/_modules.scss */
 .panel.green .panel-heading {
   color: #FFFFFF;
 }
-/* line 54, sass/modules/_modules.scss */
+/* line 79, sass/modules/_modules.scss */
 .panel.green.gradient {
   background: #00AD8C;
   background-image: linear-gradient(142deg, #00856B 0%, #00AD8C 55%, #00EABC 100%);
 }
-/* line 58, sass/modules/_modules.scss */
+/* line 83, sass/modules/_modules.scss */
 .panel.green.dark {
   background-color: #00856B;
 }
-/* line 62, sass/modules/_modules.scss */
+/* line 87, sass/modules/_modules.scss */
 .panel.overflow {
   overflow: hidden;
 }
-/* line 66, sass/modules/_modules.scss */
+/* line 91, sass/modules/_modules.scss */
 .panel#benefits .panel-heading {
   border-bottom: 0px;
 }
-/* line 70, sass/modules/_modules.scss */
+/* line 95, sass/modules/_modules.scss */
 .panel.news-panel {
   padding-top: 0px;
   padding-bottom: 0px;
 }
-/* line 73, sass/modules/_modules.scss */
+/* line 98, sass/modules/_modules.scss */
 .panel.news-panel .panel-heading {
   border-bottom: 0px;
 }
 
-/* line 81, sass/modules/_modules.scss */
+/* line 106, sass/modules/_modules.scss */
 .gmap {
   height: 100%;
   width: 40%;
@@ -1017,19 +1045,19 @@ footer a.email {
   right: 0;
 }
 
-/* line 96, sass/modules/_modules.scss */
+/* line 121, sass/modules/_modules.scss */
 .benefit-card {
   transition: all 0.2s ease-in-out;
   border-radius: 10px;
   padding: 40px;
   position: relative;
 }
-/* line 104, sass/modules/_modules.scss */
+/* line 129, sass/modules/_modules.scss */
 .benefit-card p {
   font-size: 2rem;
   font-weight: 700;
 }
-/* line 108, sass/modules/_modules.scss */
+/* line 133, sass/modules/_modules.scss */
 .benefit-card::before {
   content: '*';
   font-family: serif;
@@ -1042,66 +1070,66 @@ footer a.email {
   z-index: -1;
   color: #eee;
 }
-/* line 122, sass/modules/_modules.scss */
+/* line 147, sass/modules/_modules.scss */
 .benefit-card:hover::before {
   color: rgba(0, 173, 140, 0.5);
 }
 
-/* line 128, sass/modules/_modules.scss */
+/* line 153, sass/modules/_modules.scss */
 .press-story {
   display: block;
   border: 1px solid;
   color: #FFFFFF;
   padding: 0;
 }
-/* line 133, sass/modules/_modules.scss */
+/* line 158, sass/modules/_modules.scss */
 .press-story .press-thumbnail {
   height: 140px;
   margin: 10px;
   background-position: center;
   background-size: cover;
 }
-/* line 140, sass/modules/_modules.scss */
+/* line 165, sass/modules/_modules.scss */
 .press-story .press-text {
   transition: opacity 0.2s ease-in-out;
   overflow: hidden;
 }
-/* line 145, sass/modules/_modules.scss */
+/* line 170, sass/modules/_modules.scss */
 .press-story .press-text h6 {
   font-weight: 400;
   font-size: 2.4rem;
 }
-/* line 149, sass/modules/_modules.scss */
+/* line 174, sass/modules/_modules.scss */
 .press-story .press-text p {
   font-size: 1.4rem;
 }
-/* line 153, sass/modules/_modules.scss */
+/* line 178, sass/modules/_modules.scss */
 .press-story .press-title, .press-story .press-desc {
   padding: 10px;
   margin-bottom: 0;
 }
-/* line 157, sass/modules/_modules.scss */
+/* line 182, sass/modules/_modules.scss */
 .press-story .press-date {
   border-top: 1px solid;
   margin-bottom: 0px;
   padding: 10px;
 }
-/* line 162, sass/modules/_modules.scss */
+/* line 187, sass/modules/_modules.scss */
 .press-story:hover {
   text-decoration: none;
 }
-/* line 164, sass/modules/_modules.scss */
+/* line 189, sass/modules/_modules.scss */
 .press-story:hover .press-text {
   opacity: 0.8;
 }
 
-/* line 170, sass/modules/_modules.scss */
+/* line 195, sass/modules/_modules.scss */
 .news-container {
   position: relative;
   padding: 80px 20px 40px 20px;
   border-left: 2px solid #aaa;
 }
-/* line 174, sass/modules/_modules.scss */
+/* line 199, sass/modules/_modules.scss */
 .news-container .news-date {
   font-weight: 700;
   font-family: "brandon-grotesque", sans-serif;
@@ -1109,12 +1137,12 @@ footer a.email {
   margin-bottom: 0px;
   font-size: 3rem;
 }
-/* line 181, sass/modules/_modules.scss */
+/* line 206, sass/modules/_modules.scss */
 .news-container .news-item {
   position: relative;
   margin-bottom: 40px;
 }
-/* line 184, sass/modules/_modules.scss */
+/* line 209, sass/modules/_modules.scss */
 .news-container .news-item::before {
   content: '';
   display: block;
@@ -1129,12 +1157,12 @@ footer a.email {
   left: -28px;
 }
 
-/* line 200, sass/modules/_modules.scss */
+/* line 225, sass/modules/_modules.scss */
 .news-feed {
   position: relative;
 }
 
-/* line 204, sass/modules/_modules.scss */
+/* line 229, sass/modules/_modules.scss */
 svg.timeline {
   position: absolute;
   left: 0;
