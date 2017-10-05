@@ -74,7 +74,7 @@
          <div class="columns-6">
             <a href="" class="press-story">
                <div class="row">
-                  <div class="press-thumbnail" style="background-image:url('http://localhost:8888/catonflats/wp-content/themes/catonflats/img/carib30n-8-web.jpg')">
+                  <div class="press-thumbnail" style="background-image:url('wp-content/themes/catonflats/img/carib30n-8-web.jpg')">
                   </div>
                   <div class="press-text">
                      <h6 class="press-title">Fusce dapibus, tellus ac cursus commodo, tortor mauris.</h6>
@@ -87,7 +87,7 @@
          <div class="columns-3">
             <a href="" class="press-story">
                <div class="row">
-                  <div class="press-thumbnail" style="background-image:url('http://localhost:8888/catonflats/wp-content/themes/catonflats/img/carib30n-8-web.jpg')">
+                  <div class="press-thumbnail" style="background-image:url('wp-content/themes/catonflats/img/carib30n-8-web.jpg')">
                   </div>
                   <div class="press-text">
                      <h6 class="press-title">Fusce dapibus, tellus ac cursus commodo, tortor mauris.</h6>
@@ -100,7 +100,7 @@
          <div class="columns-3">
             <a href="" class="press-story">
                <div class="row">
-                  <div class="press-thumbnail" style="background-image:url('http://localhost:8888/catonflats/wp-content/themes/catonflats/img/carib30n-8-web.jpg')">
+                  <div class="press-thumbnail" style="background-image:url('wp-content/themes/catonflats/img/carib30n-8-web.jpg')">
                   </div>
                   <div class="press-text">
                      <h6 class="press-title">Fusce dapibus, tellus ac cursus commodo, tortor mauris.</h6>
