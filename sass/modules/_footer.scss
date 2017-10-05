@@ -3,6 +3,7 @@ footer{
    background-image: $green-gradient;
    background-color: $green;
    color: $white;
+   position: relative;
    .centered-section{
       text-align: center;
    }
@@ -21,6 +22,18 @@ footer{
       }
       &.email{
          border-bottom: 1px solid;
+      }
+   }
+   .contact{
+      @media screen and ($bp-smaller-than-tablet){
+         margin-bottom: 40px;
+      }
+   }
+   .button.scroll-link{
+      @media screen and ($bp-smaller-than-tablet){
+         position: absolute;
+         bottom: 0;
+         right: 0;
       }
    }
 }

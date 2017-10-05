@@ -43,11 +43,11 @@
 	<header>
 		<!-- <div class="container"> -->
 
-			<div class="nav-container">
+			<div class="nav-position">
 				<!-- <div class="logo">
 					<h1 class="site-title"><a href="<//?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><//?php bloginfo( 'name' ); ?></a></h1>
 				</div> -->
-				<div class="container">
+				<div class="navigation container">
 					<div class="row">
 						<div class="columns-12">
 							<!-- <div class="wordmark">

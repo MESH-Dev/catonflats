@@ -28,7 +28,7 @@
          <div class="columns-6">
             <p>Caton Flats is a proposed mixed-use development located at the corner of Flatbush and Caton Avenues in the Flatbush neighborhood of Brooklyn.<br>The proposed development will contain affordable rental apartments, a new home for the Flatbush Caton Market, incubator space for local entrepreneurs and businesses, a new headquarters for the Caribbean American Chamber of Commerce and Industry, parking, and ground floor retail.</p>
          </div>
-         <div class="columns-6">
+         <div class="columns-6 map-container">
             <div class="gmap"></div>
             <!-- <img src="https://maps.googleapis.com/maps/api/staticmap?center=40.653055,+-73.959605&zoom=17&scale=2&size=600x300&maptype=roadmap&key=AIzaSyDF0homieaRhM6dcMJdHAAjSx-ZboErVAo&format=png&visual_refresh=true&markers=size:mid%7Ccolor:0xff0000%7Clabel:%7C40.653055,+-73.959605" alt=""> -->
          </div>

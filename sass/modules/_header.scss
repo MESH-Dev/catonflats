@@ -1,10 +1,17 @@
 //Header
-.nav-container{
+.nav-position{
    // background-color: $green;
    position: fixed;
    top: 20px;
    width: 100%;
    z-index: 100;
+   @media screen and ($bp-smaller-than-desktophd){
+      padding: 0 20px;
+   }
+   @media screen and ($bp-smaller-than-phablet){
+      padding: 0;
+      top: 0;
+   }
    .wordmark{
       float: left;
       a{
@@ -39,9 +46,17 @@
       // background-color: $green-rgba;
       // border: 2px solid $white-rgba;
       // padding: 0 20px;
+      @media screen and ($bp-smaller-than-phablet){
+         float: none;
+      }
       ul{
          margin: 0;
          list-style: none;
+         @media screen and ($bp-smaller-than-phablet){
+            white-space: nowrap;
+            overflow-x: scroll;
+            overflow-y: hidden;
+         }
          li{
             margin-bottom: 0;
             list-style: none;
