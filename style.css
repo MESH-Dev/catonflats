@@ -1291,7 +1291,7 @@ footer a.email {
 }
 /* line 242, sass/modules/_modules.scss */
 .row.grid-row [class*="columns-"]:last-of-type {
-  padding-right: auto;
+  padding-right: 40px;
 }
 /* line 245, sass/modules/_modules.scss */
 .row.grid-row:last-of-type {
