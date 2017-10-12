@@ -9,9 +9,21 @@
          <div class="columns-12">
             <div class="welcome-heading">
                <h1>Caton Flats Development</h1>
-               <a class="welcome button scroll-link" href="#project">About Us</a>
+               <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia.</p>
+               <!-- <a class="welcome button scroll-link" href="#project">About Us</a> -->
             </div>
          </div>
+      </div>
+      <div class="cta container">
+         <a class="scroll-link" href="#project">
+            <svg viewBox="0 0 101 60" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                <title>Scroll Down</title>
+                <desc>Created with Sketch.</desc>
+                <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                    <polygon id="Fill-2" fill="#FFFFFF" points="100.154993 9.77000044 91.3424934 0.957501066 50.1549927 42.5842911 9.02999318 0.894999816 0.154992743 9.77000044 50.1549927 59.7700004"></polygon>
+                </g>
+            </svg>
+         </a>
       </div>
    </div>
    <!-- <a class="button" href=""></a> -->
@@ -35,7 +47,7 @@
       </div>
    </div>
 </div>
-<div id="benefits" class="panel">
+<div id="benefits" class="panel white">
    <div class="panel-heading">
       <div class="container">
          <h2>Community Benefits</h2>
@@ -44,20 +56,30 @@
    <div class="container">
       <div class="row grid-row">
          <div class="columns-4 benefit-card">
+            <img src="wp-content/themes/catonflats/img/savings.svg" alt="">
+            <p class="title">100% Affordable</p>
             <p>100% affordable development providing more than 250 quality rental apartments</p>
          </div>
          <div class="columns-4 benefit-card">
+            <img src="wp-content/themes/catonflats/img/comm.svg" alt="">
+            <p class="title">Community Outreach</p>
             <p>Community and senior outreach sessions for housing lottery orientation prior to building lease up</p>
          </div>
          <div class="columns-4 benefit-card">
+            <img src="wp-content/themes/catonflats/img/briefcase.svg" alt="">
+            <p class="title">Employment Opportunities</p>
             <p>Commitment to local hiring and outreach sessions for construction and permanent employment opportunities</p>
          </div>
       </div>
       <div class="row grid-row">
          <div class="columns-4 benefit-card">
+            <img src="wp-content/themes/catonflats/img/store.svg" alt="">
+            <p class="title">Local Businesses</p>
             <p>New home for the Flatbush Caton Market and a new business incubator space to foster local small businesses</p>
          </div>
          <div class="columns-4 benefit-card">
+            <img src="wp-content/themes/catonflats/img/earth.svg" alt="">
+            <p class="title">Sustainability</p>
             <p>Sustainability and resiliency measures in building design, including LEED certification</p>
          </div>
       </div>
@@ -113,7 +135,7 @@
       </div>
    </div>
 </div>
-<div id="news" class="panel overflow news-panel">
+<div id="news" class="panel white overflow news-panel">
    <div class="container">
       <div class="row">
          <div class="columns-8 offset-by-2 news-feed">
