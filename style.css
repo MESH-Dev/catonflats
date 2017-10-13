@@ -617,31 +617,39 @@ p {
 button {
   font-family: "brandon-grotesque", sans-serif;
   display: inline-block;
-  height: 44px;
-  padding: 0 30px;
+  height: 32px;
+  padding: 0 20px;
   text-align: center;
   font-weight: 400;
-  line-height: 44px;
+  line-height: 32px;
   text-decoration: none;
   white-space: nowrap;
   cursor: pointer;
   box-sizing: border-box;
   font-size: 1.8rem;
 }
+@media screen and (max-width: 750px) {
+  /* line 4, sass/modules/_buttons.scss */
+  .button,
+  button {
+    line-height: 36px;
+    height: 36px;
+  }
+}
 
-/* line 27, sass/modules/_buttons.scss */
+/* line 31, sass/modules/_buttons.scss */
 footer .button {
   background-color: #FFFFFF;
   color: #551A8B;
   transition: all 0.2s ease-in-out;
 }
-/* line 32, sass/modules/_buttons.scss */
+/* line 36, sass/modules/_buttons.scss */
 footer .button:hover {
   background-color: #00AD8C;
   color: #FFFFFF;
 }
 
-/* line 40, sass/modules/_buttons.scss */
+/* line 44, sass/modules/_buttons.scss */
 input[type="submit"], input[type="reset"], input[type="button"] {
   display: inline-block;
   height: 38px;
@@ -659,61 +667,61 @@ input[type="submit"], input[type="reset"], input[type="button"] {
   box-sizing: border-box;
 }
 
-/* line 63, sass/modules/_buttons.scss */
+/* line 67, sass/modules/_buttons.scss */
 .button:hover,
 button:hover {
   outline: 0;
 }
 
-/* line 71, sass/modules/_buttons.scss */
+/* line 75, sass/modules/_buttons.scss */
 input[type="submit"]:hover, input[type="reset"]:hover, input[type="button"]:hover {
   outline: 0;
 }
 
-/* line 80, sass/modules/_buttons.scss */
+/* line 84, sass/modules/_buttons.scss */
 .button:focus,
 button:focus {
   outline: 0;
 }
 
-/* line 88, sass/modules/_buttons.scss */
+/* line 92, sass/modules/_buttons.scss */
 input[type="submit"]:focus, input[type="reset"]:focus, input[type="button"]:focus {
   outline: 0;
 }
 
-/* line 97, sass/modules/_buttons.scss */
+/* line 101, sass/modules/_buttons.scss */
 .button.button-primary,
 button.button-primary {
   color: #fff;
 }
 
-/* line 105, sass/modules/_buttons.scss */
+/* line 109, sass/modules/_buttons.scss */
 input[type="submit"].button-primary, input[type="reset"].button-primary, input[type="button"].button-primary {
   color: #fff;
 }
 
-/* line 114, sass/modules/_buttons.scss */
+/* line 118, sass/modules/_buttons.scss */
 .button.button-primary:hover,
 button.button-primary:hover {
   color: #fff;
 }
 
-/* line 122, sass/modules/_buttons.scss */
+/* line 126, sass/modules/_buttons.scss */
 input[type="submit"].button-primary:hover, input[type="reset"].button-primary:hover, input[type="button"].button-primary:hover {
   color: #fff;
 }
 
-/* line 131, sass/modules/_buttons.scss */
+/* line 135, sass/modules/_buttons.scss */
 .button.button-primary:focus,
 button.button-primary:focus {
   color: #fff;
 }
 
-/* line 139, sass/modules/_buttons.scss */
+/* line 143, sass/modules/_buttons.scss */
 input[type="submit"].button-primary:focus, input[type="reset"].button-primary:focus, input[type="button"].button-primary:focus {
   color: #fff;
 }
-/* line 146, sass/modules/_buttons.scss */
+/* line 150, sass/modules/_buttons.scss */
 input[type="email"], input[type="number"], input[type="search"], input[type="text"], input[type="tel"], input[type="url"], input[type="password"] {
   height: 38px;
   padding: 6px 10px;

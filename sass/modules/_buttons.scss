@@ -5,13 +5,13 @@
 button {
    font-family: $brandon;
   display: inline-block;
-  height: 44px;
-  padding: 0 30px;
+  height: 32px;
+  padding: 0 20px;
   //color: $secondary-color;
   text-align: center;
   // font-size: 11px;
   font-weight: 400;
-  line-height: 44px;
+  line-height: 32px;
   // text-transform: uppercase;
   text-decoration: none;
   white-space: nowrap;
@@ -21,6 +21,10 @@ button {
   cursor: pointer;
   box-sizing: border-box;
   font-size: 1.8rem;
+  @media screen and ($bp-smaller-than-tablet){
+     line-height: 36px;
+     height: 36px;
+ }
 }
 
 footer{
