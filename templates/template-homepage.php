@@ -30,14 +30,12 @@
    <div class="bg-image" style="background-image:url('wp-content/themes/catonflats/img/c02.jpg')"></div>
 </div>
 <div id="project" class="panel green gradient overflow">
-   <div class="panel-heading">
-      <div class="container">
-         <h2>Project Overview</h2>
-      </div>
-   </div>
    <div class="container">
       <div class="row">
          <div class="columns-6">
+            <div class="panel-heading">
+                  <h2>The new mixed-use development in the heart of Flatbush</h2>
+            </div>
             <p>Caton Flats is a proposed mixed-use development located at the corner of Flatbush and Caton Avenues in the Flatbush neighborhood of Brooklyn.<br><br>The proposed development will contain affordable rental apartments, a new home for the Flatbush Caton Market, incubator space for local entrepreneurs and businesses, a new headquarters for the Caribbean American Chamber of Commerce and Industry, parking, and ground floor retail.</p>
          </div>
          <div class="columns-6 map-container">
@@ -50,7 +48,7 @@
 <div id="benefits" class="panel white">
    <div class="panel-heading">
       <div class="container">
-         <h2>Community Benefits</h2>
+         <h2>Benefits for the whole Community</h2>
       </div>
    </div>
    <div class="container">
@@ -88,7 +86,7 @@
 <div id="press" class="panel green">
    <div class="panel-heading">
       <div class="container">
-         <h2>Press</h2>
+         <h2>What people are saying</h2>
       </div>
    </div>
    <div class="container">
@@ -138,7 +136,7 @@
 <div id="news" class="panel white overflow news-panel">
    <div class="panel-heading">
       <div class="container">
-         <h2>News Feed</h2>
+         <h2>Updates on the Project</h2>
       </div>
    </div>
    <div class="container">
