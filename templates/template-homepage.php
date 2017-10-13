@@ -18,7 +18,6 @@
          <a class="scroll-link" href="#project">
             <svg viewBox="0 0 101 60" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                 <title>Scroll Down</title>
-                <desc>Created with Sketch.</desc>
                 <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
                     <polygon id="Fill-2" fill="#FFFFFF" points="100.154993 9.77000044 91.3424934 0.957501066 50.1549927 42.5842911 9.02999318 0.894999816 0.154992743 9.77000044 50.1549927 59.7700004"></polygon>
                 </g>
@@ -142,25 +141,25 @@
    <div class="container">
       <div class="row grid-row">
          <div class="columns-4 news-item">
-            <p class="news-date">9.18</p>
+            <p class="news-date">9/18</p>
             <p class="news-text">Local hiring and supplier orientation session scheduled for 10/31/2017 at 7:00 pm. Location to be announced.</p>
          </div>
          <div class="columns-4 news-item">
-            <p class="news-date">4.25</p>
+            <p class="news-date">4/25</p>
             <p class="news-text">City Council votes to approve plan for Caton Flats development.</p>
          </div>
          <div class="columns-4 news-item">
-            <p class="news-date">4.25</p>
+            <p class="news-date">4/25</p>
             <p class="news-text">City Council votes to approve plan for Caton Flats development.</p>
          </div>
       </div>
       <div class="row grid-row">
          <div class="columns-4 news-item">
-            <p class="news-date">9.18</p>
+            <p class="news-date">9/18</p>
             <p class="news-text">Local hiring and supplier orientation session scheduled for 10/31/2017 at 7:00 pm. Location to be announced.</p>
          </div>
          <div class="columns-4 news-item">
-            <p class="news-date">4.25</p>
+            <p class="news-date">4/25</p>
             <p class="news-text">City Council votes to approve plan for Caton Flats development.</p>
          </div>
       </div>
