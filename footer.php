@@ -16,7 +16,7 @@
 			</div>
 			<div class="columns-4">
 				<h6>Info</h6>
-				<p class="copyright">&#169; Caton Flats Development</p>
+				<p class="copyright">&#169;<?php echo date('Y')?> Caton Flats Development</p>
 				<p>Site by <a href="http://meshfresh.com" target="_blank">MESH</a></p>
 			</div>
 			<div class="columns-4 centered-section">
