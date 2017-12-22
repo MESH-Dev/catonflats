@@ -173,6 +173,8 @@
       display:inline-block;
       width:100%;
       border-bottom:1px solid $navy;
+      font-family: "brandon-grotesque", sans-serif;
+      font-weight: 400;
       &:hover,
       &:focus,
       &:active{
@@ -186,6 +188,8 @@
       display:block;
       background:$white;
       //font-size:1.5em;
+      font-family: "brandon-grotesque", sans-serif;
+      font-weight: 400;
    }
 }
 
@@ -206,6 +210,8 @@
 .sidr-trigger{
    display:none;
    cursor:pointer;
+   font-family: "brandon-grotesque", sans-serif;
+   font-weight: 400;
 
    &.green{
       background:$green;

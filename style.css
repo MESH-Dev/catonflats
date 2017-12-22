@@ -1007,49 +1007,55 @@ td:last-child {
   display: inline-block;
   width: 100%;
   border-bottom: 1px solid #551A8B;
+  font-family: "brandon-grotesque", sans-serif;
+  font-weight: 400;
 }
-/* line 176, sass/modules/_header.scss */
+/* line 178, sass/modules/_header.scss */
 .sidr a:hover, .sidr a:focus, .sidr a:active {
   background: #00AD8C;
   color: #FFFFFF;
   text-decoration: none;
 }
-/* line 185, sass/modules/_header.scss */
+/* line 187, sass/modules/_header.scss */
 .sidr .close {
   display: block;
   background: #FFFFFF;
+  font-family: "brandon-grotesque", sans-serif;
+  font-weight: 400;
 }
 
-/* line 192, sass/modules/_header.scss */
+/* line 196, sass/modules/_header.scss */
 .close {
   cursor: pointer;
   padding: 20px;
   color: #551A8B;
   display: none;
 }
-/* line 198, sass/modules/_header.scss */
+/* line 202, sass/modules/_header.scss */
 .close:active, .close:focus, .close:hover {
   background: #00AD8C;
   color: white;
 }
 
-/* line 206, sass/modules/_header.scss */
+/* line 210, sass/modules/_header.scss */
 .sidr-trigger {
   display: none;
   cursor: pointer;
+  font-family: "brandon-grotesque", sans-serif;
+  font-weight: 400;
 }
-/* line 210, sass/modules/_header.scss */
+/* line 216, sass/modules/_header.scss */
 .sidr-trigger.green {
   background: #00AD8C;
   color: #FFFFFF;
 }
-/* line 213, sass/modules/_header.scss */
+/* line 219, sass/modules/_header.scss */
 .sidr-trigger.green:hover, .sidr-trigger.green:focus, .sidr-trigger.green:active {
   background: #FFFFFF;
   color: #551A8B;
 }
 @media only screen and (max-width: 480px) {
-  /* line 206, sass/modules/_header.scss */
+  /* line 210, sass/modules/_header.scss */
   .sidr-trigger {
     display: block;
     background: white;
@@ -1060,7 +1066,7 @@ td:last-child {
     margin: 20px 0;
   }
 }
-/* line 230, sass/modules/_header.scss */
+/* line 236, sass/modules/_header.scss */
 .sidr-trigger:hover, .sidr-trigger:focus, .sidr-trigger:active {
   background: #00AD8C;
   color: #FFFFFF;
