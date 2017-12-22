@@ -1460,30 +1460,32 @@ footer .scroll-link:hover svg {
   color: #FFFFFF;
   padding: 0 0 2px 0;
   text-transform: uppercase;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
 }
-/* line 319, sass/modules/_modules.scss */
+/* line 320, sass/modules/_modules.scss */
 .press-story .press-url:hover, .press-story .press-url:active, .press-story .press-url:focus {
   color: #551A8B;
   text-decoration: none;
   border-bottom: 2px solid #551A8B;
 }
-/* line 327, sass/modules/_modules.scss */
+/* line 328, sass/modules/_modules.scss */
 .press-story .press-date {
   margin-bottom: 0px;
   padding: 10px 0;
 }
-/* line 332, sass/modules/_modules.scss */
+/* line 333, sass/modules/_modules.scss */
 .press-story .press-desc {
   font-weight: 700;
 }
 
-/* line 343, sass/modules/_modules.scss */
+/* line 344, sass/modules/_modules.scss */
 .news-container {
   position: relative;
   padding: 80px 20px 40px 20px;
 }
 
-/* line 349, sass/modules/_modules.scss */
+/* line 350, sass/modules/_modules.scss */
 .news-date {
   font-weight: 700;
   font-family: "brandon-grotesque", sans-serif;
@@ -1492,39 +1494,39 @@ footer .scroll-link:hover svg {
   font-size: 5.4rem;
 }
 
-/* line 357, sass/modules/_modules.scss */
+/* line 358, sass/modules/_modules.scss */
 .news-item {
   position: relative;
 }
 
-/* line 376, sass/modules/_modules.scss */
+/* line 377, sass/modules/_modules.scss */
 .news-panel .grid-row {
   margin-bottom: 40px;
 }
-/* line 378, sass/modules/_modules.scss */
+/* line 379, sass/modules/_modules.scss */
 .news-panel .grid-row:last-of-type {
   margin-bottom: 0;
 }
 @media screen and (max-width: 750px) {
-  /* line 376, sass/modules/_modules.scss */
+  /* line 377, sass/modules/_modules.scss */
   .news-panel .grid-row {
     margin-bottom: 0;
   }
 }
 
-/* line 387, sass/modules/_modules.scss */
+/* line 388, sass/modules/_modules.scss */
 .news-feed {
   position: relative;
 }
 
-/* line 391, sass/modules/_modules.scss */
+/* line 392, sass/modules/_modules.scss */
 svg.timeline {
   position: absolute;
   left: 0;
   height: 2000px;
 }
 
-/* line 398, sass/modules/_modules.scss */
+/* line 399, sass/modules/_modules.scss */
 .sr-only, .search-form .screen-reader-text {
   position: absolute;
   width: 1px;
