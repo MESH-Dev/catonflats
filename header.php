@@ -41,47 +41,20 @@
 <body <?php body_class(); ?>>
 
 	<header>
-		<!-- <div class="container"> -->
-
 			<div class="nav-position">
-				<!-- <div class="logo">
-					<h1 class="site-title"><a href="<//?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><//?php bloginfo( 'name' ); ?></a></h1>
-				</div> -->
 				<div class="navigation container">
 					<div class="row">
-						<div class="columns-12">
-							<!-- <div class="wordmark">
-								<a href="">Caton Flats</a>
-							</div> -->
+							<div class="sidr-trigger">MENU <i class="fa fa-fw fa-bars"></i></div>
 							<nav class="main-navigation">
-								<ul>
-									<li>
-										<a class="scroll-link" href="#project">Project</a>
-									</li>
-									<li>
-										<a class="scroll-link" href="#benefits">Benefits</a>
-									</li>
-									<li>
-										<a class="scroll-link" href="#press">Press</a>
-									</li>
-									<li>
-										<a class="scroll-link" href="#news">News</a>
-									</li>
-									<li>
-										<a class="scroll-link" href="#contact">Contact</a>
-									</li>
-								</ul>
-						</div>
-					</div>
-				</div>
-					<!-- <//``?php if(has_nav_menu('main_nav')){
+								<div class="close">CLOSE <i class="fa fa-fw fa-times-circle fa-lg"></i></div>
+							<?php if(has_nav_menu('main_nav')){
 								$defaults = array(
 									'theme_location'  => 'main_nav',
 									'menu'            => 'main_nav',
 									'container'       => false,
 									'container_class' => '',
 									'container_id'    => '',
-									'menu_class'      => 'menu',
+									'menu_class'      => 'main',
 									'menu_id'         => '',
 									'echo'            => true,
 									'fallback_cb'     => 'wp_page_menu',
@@ -95,9 +68,10 @@
 								); wp_nav_menu( $defaults );
 							}else{
 								echo "<p><em>main_nav</em> doesn't exist! Create it and it'll render here.</p>";
-							} ?> -->
+							} ?>
+					</div>
+				</div>
+					
 				</nav>
 			</div>
-
-		<!-- </div> -->
 	</header>
