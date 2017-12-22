@@ -71,7 +71,7 @@
       $grid_section_bg = get_field('grid_section_background');
       $grid_bg_URL = $grid_section_bg['sizes']['background-fullscreen'];
    ?>
-   <div id="benefits" class="panel white has-parallax" style="background-image:url('<?php echo $grid_bg_URL; ?>');">
+   <div id="benefits" class="panel white" style="background-image:url('<?php echo $grid_bg_URL; ?>');">
       <div class="panel-heading">
          <div class="container">
             <?php 
@@ -170,7 +170,7 @@
       $us_img_URL = $us_img['sizes']['background-fullscreen'];
       $update_title = get_field('project_section_title');   
    ?>
-   <div id="news" class="panel white overflow news-panel has-parallax" style="background-image:url('<?php echo $us_bg_URL; ?>');">
+   <div id="news" class="panel white overflow news-panel" style="background-image:url('<?php echo $us_img_URL; ?>');">
       <div class="panel-heading">
          <div class="container">
             <h2><?php echo $update_title; ?></h2>
