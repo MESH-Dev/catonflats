@@ -100,7 +100,7 @@
 
 .bg-image{
    position: absolute;
-   background-attachment:fixed;
+   //background-attachment:fixed;
    z-index: -1;
    top: 0;
    bottom: 0;
@@ -110,10 +110,10 @@
    // filter: grayscale(1);
    background-position: bottom;
    background-size: cover;
-   @media screen and ($bp-smaller-than-phablet){
-         background-attachment:initial;
-         background-position:center center !important;
-      }
+   // @media screen and ($bp-smaller-than-phablet){
+   //       background-attachment:initial;
+   //       background-position:center center !important;
+   //    }
 }
 
 //Panels
@@ -161,12 +161,13 @@
       background-image: url('img/pattern2.svg');
       background-size: cover;
       background-position: center;
-      background-attachment:fixed;
+      backgroun-repeat:no-repeat;
+      //background-attachment:fixed;
    
-      @media screen and ($bp-smaller-than-desktop){
-         background-attachment:initial;
-         background-position:center center !important;
-      }
+      // @media screen and ($bp-smaller-than-desktop){
+      //    background-attachment:initial;
+      //    background-position:center center !important;
+      // }
    }
    &.news-panel{
       // padding-top: 0px;
@@ -174,12 +175,13 @@
       background-image: url('img/pattern2.svg');
       background-size: cover;
       background-position: center;
-      background-attachment:fixed;
+      background-repeat:no-repeat;
+      //background-attachment:fixed;
    
-    @media screen and ($bp-smaller-than-phablet){
-         background-attachment:initial;
-         background-position:center center !important;
-      }
+    // @media screen and ($bp-smaller-than-phablet){
+    //      background-attachment:initial;
+    //      background-position:center center !important;
+    //   }
       .panel-heading{
          // font-size: 5rem;
          border-bottom: 0px;
