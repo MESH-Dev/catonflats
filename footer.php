@@ -5,14 +5,11 @@
 	<div class="container">
 		<div class="row">
 			<div class="columns-4 contact">
-				<!-- <nav class="main-navigation">
-					<//?php wp_nav_menu( array('menu_id' => 'footer-menu', 'theme_location' => 'footer-menu') ); ?>
-				</nav> -->
 				<h6>Contact Us</h6>
 				<p class="address">
-					Caton Flats<br>123 Example Street<br>Brooklyn, NY 12345
+					Caton Flats is a proposed future development. Please check back for contact information including address and email.
 				</p>
-				<p><a class="email" href="mailto:catonflats@example.com">catonflats@example.com</a></p>
+				<!-- <p><a class="email" href="mailto:catonflats@example.com">catonflats@example.com</a></p> -->
 			</div>
 			<div class="columns-4">
 				<h6>Info</h6>
