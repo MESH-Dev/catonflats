@@ -102,7 +102,7 @@
             ?>
              <div class="columns-4 benefit-card">
                <!-- <img src="<?php echo $grid_icon_url ?>" alt="<?php echo $grid_item_alt; ?>"> -->
-               <?php echo file_get_contents($grid_icon_url); ?>
+               <div aria-hidden="true"><?php echo file_get_contents($grid_icon_url); ?></div>
                <p class="title"><?php echo $gi_title; ?></p>
                <p><?php echo $gi_description; ?></p>
             </div>

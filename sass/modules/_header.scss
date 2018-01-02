@@ -20,6 +20,12 @@
          letter-spacing: 2px;
       }
    }
+   li.active{
+      background-color:$green;
+      a{
+         color:$white;
+      }
+   }
    a{
       // color: $white;
       color: $navy;
@@ -54,6 +60,12 @@
          background-color: $green;
          a{
             color: $white;
+         }
+         li.active{
+            background-color:$white;
+            a{
+               color:$green;
+            }
          }
       }
       &.midnightHeader{

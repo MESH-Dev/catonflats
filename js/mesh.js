@@ -34,12 +34,30 @@ jQuery(document).ready(function($){
   // console.log('New theme loaded!');
 
   //Let's do something awesome!
-  var windowW = $(window).width();
-  if (windowW > 1070){
-     
 
-    $('.has-parallax').parallax("50%",.5);
-  }
+//Taken from https://jsfiddle.net/cse_tushar/Dxtyu/141/
+$(document).on("scroll", onScroll);    
+
+function onScroll(event){
+    var scrollPos = $(document).scrollTop();
+    $('.main-navigation a').each(function () {
+        var currLink = $(this);
+        var currLi = $(this).parent('li');
+        var refElement = $(currLink.attr("href"));
+        if (refElement.position().top <= scrollPos && refElement.position().top + refElement.height() > scrollPos) {
+            $('.main-navigation ul li').removeClass("active");
+            currLi.addClass("active");
+        }
+        else{
+            currLi.removeClass("active");
+        }
+    });
+}
+
+$('.main-navigation ul li a').click(function(){
+   $('.main-navigation ul li').removeClass('active');
+    $(this).parent('li').addClass('active');
+})
 
   //Smooth page scroll + page scroll location control
 $(function() {

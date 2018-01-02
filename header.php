@@ -1,3 +1,14 @@
+<?php 
+
+	//This redirects any call that leads to a 404 page back to the homepage
+	$home=esc_url( home_url( '/' ) );
+	if(is_404()){
+		header('Location: '.$home);
+		//We don't want to create a loop, so we just end execution if it doesn't pass
+		die();
+	}
+?>
+
 <!DOCTYPE html>
 <!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
 <!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
@@ -69,8 +80,6 @@
 							}else{
 								echo "<p><em>main_nav</em> doesn't exist! Create it and it'll render here.</p>";
 							} ?>
-					</div>
-				</div>
 					
 				</nav>
 			</div>
