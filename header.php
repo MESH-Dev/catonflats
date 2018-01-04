@@ -1,4 +1,4 @@
-<?php 
+<?php
 
 	//This redirects any call that leads to a 404 page back to the homepage
 	$home=esc_url( home_url( '/' ) );
@@ -34,16 +34,17 @@
 
 	<!-- Type
 	================================================== -->
-	<link href="https://fonts.googleapis.com/css?family=Arvo:400,400i,700,700i|Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i|Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i|Roboto+Slab:100,300,400,700|Ubuntu:300,300i,400,400i,500,500i,700,700i" rel="stylesheet">
-	<script src="https://use.typekit.net/qrz4kju.js"></script>
-	<script>try{Typekit.load({ async: true });}catch(e){}</script>
 
 	<!-- Favicons
 	================================================== -->
-	<link rel="shortcut icon" href="images/favicon.ico">
-	<link rel="apple-touch-icon" href="images/apple-touch-icon.png">
-	<link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
-	<link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="<?php bloginfo('url' );?>/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="<?php bloginfo('url' );?>/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="<?php bloginfo('url' );?>/favicon-16x16.png">
+	<link rel="manifest" href="<?php bloginfo('url' );?>/manifest.json">
+	<link rel="mask-icon" href="<?php bloginfo('url' );?>/safari-pinned-tab.svg" color="#5bbad5">
+	<meta name="theme-color" content="#ffffff">
+
+
 
 	<?php wp_head(); ?>
 
@@ -80,7 +81,7 @@
 							}else{
 								echo "<p><em>main_nav</em> doesn't exist! Create it and it'll render here.</p>";
 							} ?>
-					
+
 				</nav>
 			</div>
 	</header>
